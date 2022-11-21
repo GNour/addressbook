@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage ("clone the project") {
             steps {
+                echo "CLONE"
                 git "https://github.com/GNour/addressbook"
             }
             
